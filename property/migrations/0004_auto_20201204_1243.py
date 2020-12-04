@@ -19,5 +19,4 @@ class Migration(migrations.Migration):
         ('property', '0003_flat_new_building'),
     ]
 
-    operations = [migrations.RunPython(fill_new_building_field),
-    ]
+    operations = [migrations.RunPython(fill_new_building_field), ]
